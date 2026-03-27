@@ -1,0 +1,63 @@
+{
+  "name": "nitro5",
+  "version": "1.0.1",
+  "description": "Nitro5 is a next-generation hybrid web server framework built with Node.js and C++ that delivers ultra-fast performance, low latency, TypeScript/TSX support, ESBuild-powered builds, caching, Hot Module Replacement (HMR), and a scalable architecture designed for modern production web applications.",
+  "type": "module",
+  "main": "./index.js",
+  "bin": {
+    "nitro5": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js --dev",
+    "build": "node index.js --build",
+    "install": "echo 'Replace to Postinstall'",
+    "postinstall": "node .install.js",
+    "test": "node index.js --test",
+    "lint": "node index.js --lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhairyK/nitro5.git"
+  },
+  "homepage": "https://nitro5.opendnf.cloud/",
+  "bugs": {
+    "url": "https://github.com/KhairyK/nitro5/issues"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/Khairy47"
+  },
+  "keywords": [
+    "nitro5",
+    "web-server",
+    "framework",
+    "nodejs",
+    "typescript",
+    "tsx",
+    "react",
+    "bundler",
+    "hmr",
+    "cache",
+    "router",
+    "dashboard",
+    "cplusplus"
+  ],
+  "author": "KhairyK",
+  "license": "BSD-3-Clause",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "chokidar": "^5.0.0",
+    "ms": "^2.1.3",
+    "node-addon-api": "^8.3.0",
+    "ora": "^8.0.1",
+    "ws": "^8.20.0"
+  },
+  "optionalDependencies": {
+    "vite": "^6.0.0"
+  }
+}
