@@ -1,1 +1,0 @@
-cmd_Release/obj.target/nitro5.node := arm-linux-androideabi-clang++ -o Release/obj.target/nitro5.node -shared -rdynamic -fPIC  -Wl,-soname=nitro5.node -Wl,--start-group Release/obj.target/nitro5/native/nitro5.o Release/obj.target/node_modules/node-addon-api/nothing.a -Wl,--end-group -llog
