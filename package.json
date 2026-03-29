@@ -59,5 +59,8 @@
   },
   "optionalDependencies": {
     "vite": "^6.0.0"
+  }, 
+  "devDependencies": {
+    "node-gyp": "12.2.0"
   }
 }
