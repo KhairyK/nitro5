@@ -1,4 +1,4 @@
-name: "CodeQL Code Scanner"
+name: "CodeQL"
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '0 3 * * 1' # tiap Senin
+    - cron: '0 3 * * 1' 
 
 jobs:
   analyze:
